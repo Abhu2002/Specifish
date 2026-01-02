@@ -1,0 +1,12 @@
+0 Alopias pelagicus
+1 Caranx ignobilis
+2 Carcharhinus leucas
+3 Carcharhinus limbatus
+4 Carcharhinus longimanus
+5 Chaetodon auriga
+6 Galeocerdo cuvier
+7 Hemipristis elongata
+8 Nebrius ferrugineus
+9 Pomadasys kaakan
+10 Pseudobalistes flavimarginatus
+11 Sargocentron rubrum

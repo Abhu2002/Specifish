@@ -1,0 +1,68 @@
+name: Specifish
+description: Specifish is a Flutter-based mobile application designed to identify fish species using deep learning and computer vision techniques. The system leverages transfer learning models including MobileNet, ResNet, and Inception to classify fish species from images with an accuracy of 94%.
+  I led the end-to-end development of the project, including dataset creation via web scraping (FishBase), image preprocessing, augmentation, background removal, and model training using PyTorch. The application supports real-time image inference and provides detailed species characteristics to the user.
+  This project was selected as a Smart India Hackathon problem statement, published at IEEE ICACTA 2023, and received a Certificate of Merit for outstanding research and innovation in the Artificial Intelligence track
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # UI & Utils
+  flutter_screenutil: ^5.6.1
+  google_fonts: ^4.0.4
+  font_awesome_flutter: ^10.4.0
+  google_nav_bar: ^5.0.6
+  modal_progress_hud_nsn: ^0.5.1
+
+  # Auth & Firebase
+  firebase_core: ^2.7.1
+  firebase_auth: ^4.2.10
+  google_sign_in: ^6.0.2
+  flutter_facebook_auth: ^5.0.8
+
+  # State management
+  stacked: ^3.2.0
+  stacked_services: ^1.0.0
+
+  # ML / Image
+  tflite_flutter: ^0.12.1
+  image: ^3.3.0
+  image_picker: ^0.8.7
+  camera: ^0.11.3
+  remove_background: ^0.0.1
+
+  # Data
+  csv: ^5.0.1
+  excel: 2.1.0
+  rflutter_alert: ^2.0.7
+  flutter_plugin_android_lifecycle: ^2.0.33
+
+dependency_overrides:
+  archive: ^4.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/models/
+    - assets/fish_details.csv
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Black.ttf
