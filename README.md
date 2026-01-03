@@ -97,4 +97,5 @@ Conference: IEEE ICACTA 2023
 ## 👨‍💻 Author
 
 Abhay Kapadnis
-Software Engineer | AI & Mobile App Developer
+- Software Engineer | AI & Mobile App Developer
+
